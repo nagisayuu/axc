@@ -16,3 +16,6 @@ $ git clone https://github.com/nagisayuu/axc.git
 ## 環境構築  
 $ cd axc  
 $ vagrant up
+
+## 動作確認(仮想マシン接続)  
+$ vagrant ssh ubuntu1
