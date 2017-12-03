@@ -106,7 +106,7 @@ EOT
   # Vagrant管理のホスト名
   config.vm.define :ubuntu1 do |node|
     # ubuntu14.04
-    node.vm.box = "uubuntu/trusty64"
+    node.vm.box = "ubuntu/trusty64"
     # IP address
     node.vm.network :private_network, ip:"192.168.33.10"
     # browser_solidity port forwarding
